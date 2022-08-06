@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: system-ui
+}
+header{
+    min-height: 100vh;
+    width: 100%;
+}
+.title{
+    background-color: rgba(255, 0, 0, 0.557);
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 40px;
+
+}
+.title span{
+    color: #ff0;
+}
+header .boxes{
+    width: 600px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+header .boxes > div{
+    width: 32.333%;
+    height:100px;
+    background-color: rgba(255, 0, 0, 0.557);
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+    cursor: pointer;
+    /* transition: .3s; */
+}
+header .boxes > div:hover{
+    background-color: #000;
+    color: #fff;
+}
