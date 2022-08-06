@@ -26,6 +26,11 @@ header .boxes{
     justify-content: space-between;
     flex-flow: row wrap;
 }
+@media (max-width:768px) {
+    header .boxes{
+        width: 96%;
+    }  
+}
 header .boxes > div{
     width: 32.333%;
     height:100px;
@@ -37,6 +42,11 @@ header .boxes > div{
     margin-bottom: 10px;
     cursor: pointer;
     /* transition: .3s; */
+}
+@media (max-width:768px) {
+    header .boxes > div{
+        width: 30.333%;
+    }  
 }
 header .boxes > div:hover{
     background-color: #000;
